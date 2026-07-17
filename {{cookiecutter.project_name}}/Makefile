@@ -1,13 +1,13 @@
 .PHONY: install sync lint format test run shell up down build
 
 up:
-	docker compose -f docker/docker-compose.yml up
-
+	docker compose -d up --build
+	
 down:
-	docker compose -f docker/docker-compose.yml down
+	docker compose down
 
 build:
-	docker compose -f docker/docker-compose.yml build
+	docker compose -d build
 
 logs:
-	docker compose -f docker/docker-compose.yml logs -f
+	docker compose logs -f
