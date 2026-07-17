@@ -43,12 +43,12 @@ staticfiles/
 .env.*.local
 
 # === IDE ===
-.gigacode_vsc/
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# .gigacode_vsc/
+# .vscode/
+# .idea/
+# *.swp
+# *.swo
+# *~
 
 # === Testing ===
 .coverage
