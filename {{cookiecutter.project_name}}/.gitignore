@@ -24,7 +24,6 @@ pip-delete-this-directory.txt
 
 # === Virtualenv ===
 .venv
-.vscode
 .venv/
 venv/
 ENV/
