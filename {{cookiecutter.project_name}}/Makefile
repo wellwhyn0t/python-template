@@ -1,7 +1,7 @@
 .PHONY: install sync lint format test run shell up down build
 
 up:
-	docker compose -d up --build
+	docker compose up -d --build
 	
 down:
 	docker compose down
