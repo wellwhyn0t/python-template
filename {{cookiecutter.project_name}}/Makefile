@@ -7,7 +7,7 @@ down:
 	docker compose down
 
 build:
-	docker compose -d build
+	docker compose build
 
 logs:
 	docker compose logs -f
