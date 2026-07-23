@@ -1,0 +1,18 @@
+target-version = "py312"
+line-length = 88
+exclude = ["migrations", ".venv", "__pycache__", ".git", "static", "media"]
+
+[lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "C4", "SIM", "PT", "S"]
+ignore = ["E501", "S101", "S105", "S106"]
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.isort]
+known-first-party = ["{{cookiecutter.project_slug}}"]
+
+[format]
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = false

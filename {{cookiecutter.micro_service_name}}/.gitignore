@@ -1,0 +1,68 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Virtualenv ===
+.venv
+.venv/
+venv/
+ENV/
+env/
+
+# === Django ===
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
+
+# === IDE ===
+# .gigacode_vsc/
+# .vscode/
+# .idea/
+# *.swp
+# *.swo
+# *~
+
+# === Testing ===
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+# === Python build artifacts ===
+*.egg-info/
+.eggs/
+dist/
+build/
