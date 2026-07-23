@@ -1,4 +1,4 @@
 {
     "micro-service_name": "service",
-    "app_name": "{{ cookiecutter.micro-service_name.lower().replace(' ', '_').replace('-', '_') }}"
+    "app_name": "name"
 }
