@@ -10,7 +10,7 @@ ignore = ["E501", "S101", "S105", "S106"]
 convention = "google"
 
 [lint.isort]
-known-first-party = ["{{cookiecutter.project_slug}}"]
+known-first-party = ["{{cookiecutter.micro_service_name}}"]
 
 [format]
 quote-style = "single"

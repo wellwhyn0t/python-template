@@ -1,12 +1,12 @@
-# template/{{cookiecutter.project_slug}}/pyproject.toml
+# template/{{cookiecutter.micro_service_name}}/pyproject.toml
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "{{cookiecutter.project_slug}}"
+name = "{{cookiecutter.micro_service_name}}"
 version = "0.1.0"
-description = "{{cookiecutter.project_name}}"
+description = "{{cookiecutter.micro_service_name}}"
 requires-python = ">=3.12"
 
 dependencies = [
